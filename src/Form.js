@@ -3,10 +3,6 @@
 import React from "react";
 
 export default function Form() {
-  const [value, setValue] = useState(value);
-  const handleChange = (event) => {
-    setValue(event.target.value);
-  };
   return (
     <div className="Form">
       <label for="books">Choose a book: </label>
@@ -39,9 +35,7 @@ export default function Form() {
         <option value="book">The Truth</option>
         <option value="book">Thief of Time</option>
         <option value="book">The Last Hero</option>
-        <option value="book">
-          The amazing Maurince And His Educated Rodents
-        </option>
+        <option value="book">The amazing Maurince And His Educated Rodents</option>
         <option value="book">Night Watch</option>
         <option value="book">The Free Wee Men</option>
         <option value="book">Monstrous Regiment</option>
