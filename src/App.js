@@ -1,10 +1,14 @@
 import "./App.css";
 import Form from "./Form";
+import Intro from "./Intro";
 
 export default function App() {
   return (
     <div className="App">
-      <Form />
+      <Intro />
+      <div>
+        <Form />
+      </div>
       <footer>
         This project was codded by{" "}
         <a href="https://github.com/dashboard" target="_blank" rel="noreferrer">

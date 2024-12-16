@@ -12,3 +12,14 @@
 .Form {
   text-align: center;
 }
+
+.Intro {
+  text-align: center;
+}
+
+.Intro p {
+font-family:'Times New Roman', Times, serif;
+font-size: 10 px;
+font-weight: lighter
+
+}
