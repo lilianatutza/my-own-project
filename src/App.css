@@ -1,16 +1,38 @@
 .App {
-  max-width: 800px;
+  height: 1000px;
+  max-width: 1400px;
   margin: 30px auto;
+  border: 1px solid #c7d7ec;
+  border-style: double;
+  border-radius: 4px;
+  padding: 16px;
+  margin: 30px auto;
+  background-color: #1f1f1f;
 }
 
 .App footer {
+  color: aliceblue;
   font-size: 11px;
   margin: 10px;
+  margin-top: 50px;
+  text-align: center;
+}
+.Form {
+
+ font-size: 14px;
+ font-family: 'Courier New', Courier, monospace;
+ 
+}
+
+label {
+  color: aliceblue;
+}
+form {
   text-align: center;
 }
 
-.Form {
-  text-align: center;
+select {
+  color: #5f6368;
 }
 
 .Intro {
@@ -18,8 +40,26 @@
 }
 
 .Intro p {
-font-family:'Times New Roman', Times, serif;
-font-size: 10 px;
-font-weight: lighter
+  color: aliceblue;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+  font-weight: lighter;
+}
 
+.Intro h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: aliceblue;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 20px 0 0 0;
+  line-height: 29px;
+}
+
+.App a {
+  text-decoration: none;
+  color: #5ad6f3;
+}
+
+.App a:hover {
+  color: rgb(168, 168, 200);
 }

@@ -2,13 +2,17 @@ import "./App.css";
 import Form from "./Form";
 import Intro from "./Intro";
 
+
 export default function App() {
   return (
     <div className="App">
-      <Intro />
-      <div>
-        <Form />
-      </div>
+      <div class="row"> 
+        <div class="col-sm-4"><Form /></div>
+        <div class="col-sm-4"><Form /></div>
+      <div class="col-sm-4"><Intro />
+        </div>
+        </div>
+
       <footer>
         This project was codded by{" "}
         <a href="https://github.com/dashboard" target="_blank" rel="noreferrer">
